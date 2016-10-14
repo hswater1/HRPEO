@@ -20,4 +20,5 @@ test_dataset.csv.zip: This file contains the test dataset. All fields relevant t
 attributes.pdf: This file contains definitions for all the attributes given in the dataset.
 
 <b>Approach</b>
+
 In this challenge, Pandas is used to manipulate the data, which includes filling the missing values and calculating the open rates. SciKit-Learn is used to perform one-hot encoding and generate the validation data set. XGBoost is them model used in this case. Due the time limitation, no tuning is performed in this case.
